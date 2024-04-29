@@ -62,7 +62,7 @@ const LoginPage = () => {
           justify-center
           items-center'
         >
-          <Image src={Logo} alt='syncspace Logo' width={150} height={150} />
+          <Image src={Logo} alt='syncspace Logo' width={100} height={100} />
           <span
             className="font-semibold
           dark:text-white text-4xl first-letter:ml-2"
@@ -72,7 +72,10 @@ const LoginPage = () => {
         </Link>
         <FormDescription
           className='
-        text-foreground/60'
+        text-foreground/60
+
+        text-center
+        '
         >
           An all-In-One Collaboration and Productivity Platform
         </FormDescription>
